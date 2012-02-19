@@ -6,7 +6,7 @@ GHC_DOWNLOAD="http://www.haskell.org/ghc/download_ghc_7_0_4#x86_64linux"
 CABALINSTALL="http://hackage.haskell.org/packages/archive/cabal-install/0.10.2/cabal-install-0.10.2.tar.gz"
 
 curl $GHC_DOWNLOAD -o ghc.tbz
-tar xvjf ghc.tbz
+tar xvf ghc.tbz
 cd ghc-7.0.4
 ./configure --prefix=`pwd`
 make install
