@@ -12,7 +12,7 @@ cd ghc-7.0.4
 make install
 export PATH="`pwd`/bin:$HOME/.cabal/bin:$PATH"
 curl $CABALINSTALL -o cabal.tgz
-ctar xvzf cabal.tgz
+ctar xvf cabal.tgz
 cd "cabal-install-0.10.2"
 sh bootstrap.sh
 cd $BUILD_DIR
